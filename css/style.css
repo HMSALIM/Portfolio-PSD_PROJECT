@@ -1,0 +1,664 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.full-wrapper{
+    width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* common css end */
+.gap1{
+    margin: 0 30px;
+}
+.gap2{
+    margin-right: 50px;
+}
+/* common gap end */
+
+/* menu start */
+
+.menu-bg{
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 13;
+}
+.menu-bg .menu .menu-logo{
+    float: left;
+    width: 170px;
+}
+.menu-bg .menu .menu-item{
+    float: left;
+    width: 1000px;
+}
+.menu-bg .menu .menu-item ul{
+    float: right;
+}
+.menu-bg .menu .menu-item ul li{
+    float: left;
+    padding-left: 60px;
+    padding-top: 35px;
+    padding-bottom: 35px;   
+}
+.menu-bg .menu .menu-item ul li a{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 700;
+    text-transform: capitalize;
+    position: relative;
+} 
+.menu-bg .menu .menu-item ul li a::before{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: orange;
+    position: absolute;
+    right: o;
+    bottom:0;
+
+}
+.menu-bg .menu .menu-item ul li a:hover::before{
+    width: 50%;
+}
+
+.menu-bg .menu .menu-item ul li a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: orange;
+    position: absolute;
+    right: 0;
+    bottom:0;
+
+}
+.menu-bg .menu .menu-item ul li a:hover::after{
+    width: 50%;
+}
+
+/* menu closed */
+
+/* banner start */
+
+.banner-bg{
+    width: 100%;
+  
+}
+.banner-bg .banner-overlay{
+    width: 100%;
+    background: #e7f0f3;
+    position: relative;
+} 
+
+.banner-bg .banner .banner-img{
+    box-sizing: border-box;
+    width: 747px;
+    float:left;
+    
+    
+}
+.banner-bg .banner .banner-img img{
+    width: 647px;
+    margin-left: 100px;
+    z-index: 2;
+     
+}
+.banner-bg .banner .banner-text{
+    font-family: sans-serif;
+    width: 423px;
+    float:left;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.banner-bg .banner .banner-text h4{
+    
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+    padding-top: 240px;
+}
+.banner-bg .banner .banner-text h1{
+    font-family: sans-serif;
+    font-size: 102px;
+    font-weight: bold;
+    color: #222222;
+    margin-left: -100px;
+}
+.banner-bg .banner .banner-text h2{
+    font-family: sans-serif;
+    font-size: 85px;
+    font-weight: bold;
+    color: #222222;
+    margin-left: -100px;
+}
+.banner-bg .banner .banner-text a{
+    display: inline-block;
+    border: 1px solid #222;
+    width: 137px;
+    background: #f2f2f2;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.banner-bg .banner .banner-text a:hover{
+    background: #d6c6b2;
+}
+.banner-bg .banner .banner-text a:last-child{
+    margin-right: 0;
+}
+.banner-bg .banner .banner-text a:last-child.active{
+    background-color: orange;
+}
+.banner-bg .banner .banner-text a:last-child.active:hover{
+    background: #d6c6b2;
+}
+
+/* banner-end */
+.about-bg{
+    width: 100%;
+    padding-top: 80px;
+}
+.about-bg .about .about-image{
+    width: 500px;
+    float: left;
+}
+.about-bg .about .about-image img{
+    width: 470px;
+   
+}
+.about-bg .about .about-content{
+    width: 670px;
+    float: left;
+    box-sizing: border-box;
+}
+.about-bg .about .about-content h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+.about-bg .about .about-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+.about-bg .about .about-content h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.about-bg .about .about-content ul li{
+    float: left;
+    padding-right: 18px;
+}
+.about-bg .about .about-content ul li a i{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #222;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+}
+.about-bg .about .about-content ul li:nth-child(3) a i{
+    background: coral;    
+}
+/* about end */
+
+/* service start */
+.service-bg{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.service-bg .service{
+    width: 1170px;
+    height: 445px;
+}
+.service-bg .service .service-heading{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.service-bg .service .service-heading h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.service-bg .service .service-content{
+    float: left;
+}
+.service-bg .service .service-content .content-item{
+width: 370px;
+text-align: center;
+float: left;
+}
+.service-bg .service .service-content .content-item img{
+    margin-bottom: 25px;
+}
+.service-bg .service .service-content .content-item h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.service-bg .service .service-content .content-item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.service-bg .service .service-slider{
+    width: 100%;
+    float: left;
+    margin: 0 554px;
+}
+.service-bg .service .service-slider ul li{
+    float: left;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.service-bg .service .service-slider ul li:last-child{
+    background: rgb(192, 66, 66);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+/* service end */
+/* Portfolio start */
+.portfolio-bg{
+    width: 100%;
+    height: 1040px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+.portfolio-bg .portfolio{
+    width: 1170px;
+    height: 1040px;  
+}
+.portfolio-bg .portfolio .portfolio-banner{
+    width: 900px;
+    height: 940px;
+    float: left;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image0{
+    background-image: url(../images/portfolio_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 450PX;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 20PX;
+    
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image1{
+    background-image: url(../images/portfolio_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 450PX;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 20PX;
+    
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image2{
+    background-image: url(../images/portfolio_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 450PX;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 20PX;
+    
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image3{
+    background-image: url(../images/portfolio_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 450PX;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 20PX;
+}
+
+.portfolio-bg .portfolio .portfolio-banner .content-image0 .content{
+    visibility: visible;
+    width: 370px;
+    height: 450PX;
+    background: rgba(148, 92, 19, 0.411);
+    text-align: center;
+}
+
+.portfolio-bg .portfolio .portfolio-banner .content-image0 .content i{
+    margin-top: 212.5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 25px;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image0 .content h3{
+    padding-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color:azure;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image0 .content p{
+    color: bisque;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image0:hover .content{
+    visibility: visible;
+}
+
+.portfolio-bg .portfolio .portfolio-banner .content-image1 .content{
+    visibility: hidden;
+    width: 370px;
+    height: 450PX;
+    background: rgba(148, 92, 19, 0.411);
+    text-align: center;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image1:hover .content{
+    visibility: visible;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image1 .content i{
+    margin-top: 212.5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 25px;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image1 .content h3{
+    padding-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color:azure;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image1 .content p{
+    color: bisque;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image2 .content{
+    visibility: hidden;
+    width: 370px;
+    height: 450PX;
+    background: rgba(148, 92, 19, 0.411);
+    text-align: center;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image2:hover .content{
+    visibility: visible;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image2 .content i{
+    margin-top: 212.5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 25px;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image2 .content h3{
+    padding-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color:azure;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image2 .content p{
+    color: bisque;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image3 .content{
+    visibility: hidden;
+    width: 370px;
+    height: 450PX;
+    background: rgba(148, 92, 19, 0.411);
+    text-align: center;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image3:hover .content{
+    visibility: visible;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image3 .content i{
+    margin-top: 212.5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 25px;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image3 .content h3{
+    padding-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color:azure;
+}
+.portfolio-bg .portfolio .portfolio-banner .content-image3 .content p{
+    color: bisque;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.portfolio-bg .portfolio .portfolio-description{
+    width: 190px;
+    height: 920px;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 80px;
+    box-sizing: border-box;
+}
+.portfolio-bg .portfolio .portfolio-description h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+.portfolio-bg .portfolio .portfolio-description a{
+    display: block;
+    color: rgb(48, 47, 47);
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+.portfolio-bg .portfolio .portfolio-description a:nth-child(5){
+    padding-left: 20px;
+    color: rgb(184, 184, 173);
+}
+
+.portfolio-bg .portfolio .search-portfolio{
+    width: 1170px;
+    height: 100px;
+    margin-top: 60px;
+    text-align: center;
+}
+.portfolio-bg .portfolio .search-portfolio a{
+    width: 135px;
+    padding: 10px 20px;
+    background: #d6c6b2;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+/* Portfolio Closed */
+
+/* testimonial css start */
+.testimonial-bg{
+    width: 100%;
+    background: url(../images/testimonials_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.testimonial-bg .overlay{
+    width: 100%;
+    background: rgba(0, 0, 0, .70);
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+.testimonial-bg .overlay .testimonial{
+    padding-top: 10px;
+}
+.testimonial-bg .overlay .testimonial .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.testimonial-bg .overlay .testimonial .heading h3{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: silver;
+}
+.testimonial-bg .overlay .testimonial .reviews{
+    padding-top: 10px;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-one{
+    width: 560px;
+    float: left;
+    padding-top: 5px;
+    position: relative;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-one .review-content{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-one .review-content h3{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    color: silver;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-one .review-content h4{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: silver;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-one .review-content p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 50px;
+    
+}
+.testimonial-bg .overlay .testimonial .reviews .review-one .review-content ul li{
+    float: left;
+    
+}
+.testimonial-bg .overlay .testimonial .reviews .review-two{
+    width: 560px;
+    float: left;
+    padding-top: 5px;
+    position: relative;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-two .review-content{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-two .review-content h3{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    color: silver;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-two .review-content h4{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: silver;
+}
+.testimonial-bg .overlay .testimonial .reviews .review-two .review-content p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+/* testimonial css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Portfolio end */
